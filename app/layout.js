@@ -70,10 +70,10 @@ export default function Layout({ children, currentPageName }) {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 clay-card flex items-center justify-center">
+              {/* <div className="w-10 h-10 clay-card flex items-center justify-center">
                 <span className="text-gradient font-bold text-xl">D</span>
-              </div>
-              <span className="text-2xl font-bold text-gradient">DashPro</span>
+              </div> */}
+              <span className="text-2xl font-bold text-gradient">Halo</span>
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
