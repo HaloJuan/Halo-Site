@@ -5,23 +5,23 @@ export default function ServicesSection() {
   const services = [
     {
       icon: Dumbbell,
-      title: "Boutique Gym Analytics",
-      description: "Track member engagement, class attendance, equipment usage, and revenue streams. Optimize your fitness business with detailed insights.",
-      features: ["Member retention tracking", "Class popularity analysis", "Revenue optimization", "Equipment utilization"],
+      title: "Gym Performance Analytics",
+      description: "Understand your members and operations like never before. From class attendance to revenue streams, our dashboards give you the insights to make smarter, data-driven decisions.",
+      features: ["Member retention tracking", "Class trends", "Revenue optimisation", "Track marketing campaigns & leads"],
       gradient: "from-red-400 to-pink-500"
     },
     {
       icon: Coffee,
-      title: "Cafe Business Intelligence",
-      description: "Monitor sales patterns, inventory levels, customer preferences, and peak hours to maximize your cafe's profitability.",
-      features: ["Sales trend analysis", "Inventory management", "Customer behavior insights", "Peak hours optimization"],
+      title: "Cafe Insights",
+      description: "See your cafe from every angle. Monitor sales, inventory levels and customer preferences all in one place. ",
+      features: ["Sales trend analysis", "Inventory management", "Customer behaviour insights", "Peak time optimisation"],
       gradient: "from-amber-400 to-orange-500"
     },
     {
       icon: Stethoscope,
       title: "Dental Practice Reports",
-      description: "Comprehensive patient analytics, appointment scheduling insights, and treatment success tracking for better patient care.",
-      features: ["Patient analytics", "Appointment insights", "Treatment tracking", "Revenue forecasting"],
+      description: "Comprehensive dashboards that give you full visibility of your practice. Track patient analytics, optimise appointment scheduling, treatment success tracking for better patient care and Financial forecasting.",
+      features: ["Patient analytics", "Appointment scheduling insights", "Treatment success tracking", "Revenue forecasting"],
       gradient: "from-blue-400 to-cyan-500"
     }
   ];
@@ -37,12 +37,14 @@ export default function ServicesSection() {
           
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
             Tailored Solutions for
-            <span className="text-gradient block">Your Business Type</span>
+            <span className="text-gradient block">Your Business </span>
           </h2>
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We understand that every business is unique. Our specialized dashboard solutions 
-            are crafted specifically for the challenges and opportunities in your industry.
+            Think of us as personal coaches for business data. We understand that every business is 
+            unique which is why our specialised dashboard solutions are tailored to your specific
+            challenges. We help you build your "data muscles" to give you the confidence and skill
+            to take full control of your data and make data-driven decisions with ease.
           </p>
         </div>
 
