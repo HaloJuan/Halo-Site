@@ -5,38 +5,38 @@ export default function FeaturesSection() {
   const features = [
     {
       icon: Zap,
-      title: "Lightning Fast",
-      description: "Real-time data processing and instant report generation for immediate insights.",
+      title: "Fast Decisions",
+      description: "Get immediate insights with optimised reporting that turns your data into actionable decisions.",
       gradient: "from-yellow-400 to-orange-500"
     },
     {
       icon: Shield,
-      title: "Bank-Level Security",
-      description: "Enterprise-grade encryption and security protocols to protect your business data.",
+      title: "Total Security",
+      description: "Your business data stays private, secure and in your hands. Our program empowers you to maintain your dashboards, ensuring long term control and independence.",
       gradient: "from-green-400 to-emerald-500"
     },
     {
       icon: Smartphone,
-      title: "Mobile Optimized",
-      description: "Access your dashboards anywhere, anytime with our responsive mobile design.",
+      title: "Mobile Optimised",
+      description: "Access your dashboards anywhere, anytime, all in one page, with our responsive mobile design.",
       gradient: "from-blue-400 to-indigo-500"
     },
     {
       icon: Cloud,
       title: "Cloud Integration",
-      description: "Seamlessly connect with your existing tools and automatically sync your data.",
+      description: "Stay in sync with real-time cloud integration, giving you clarity, control, and confidence over your business data.",
       gradient: "from-purple-400 to-pink-500"
     },
     {
       icon: RefreshCw,
-      title: "Auto Updates",
-      description: "Always stay current with automatic updates and new feature releases.",
+      title: "Weekly 1:1 Coaching",
+      description: "Guided weekly sessions to master your dashboard, spot trends and build lasting data habits.",
       gradient: "from-teal-400 to-cyan-500"
     },
     {
       icon: HeadphonesIcon,
       title: "24/7 Support",
-      description: "Round-the-clock expert support to help you maximize your dashboard potential.",
+      description: "Round-the-clock expert support to help you maximise your dashboard potential.",
       gradient: "from-red-400 to-rose-500"
     }
   ];
@@ -56,8 +56,9 @@ export default function FeaturesSection() {
           </h2>
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Our comprehensive feature set is designed to give you complete control 
-            and insight into your business operations.
+            Across 20 weeks, we guide you through a structured training plan that not only delivers results 
+            but also equips you with lasting skills, giving you the confidence and control to 
+            manage your business data and operations independently.
           </p>
         </div>
 
@@ -83,20 +84,20 @@ export default function FeaturesSection() {
           ))}
         </div>
 
-        {/* Bottom CTA */}
+        {/* Bottom CTA 
         <div className="text-center mt-16">
           <div className="clay-card inline-block p-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
               Ready to Transform Your Business?
             </h3>
             <p className="text-gray-600 mb-6 max-w-md">
-              Join hundreds of successful businesses already using DashPro to make smarter decisions.
+              Join hundreds of successful businesses already using halo to make smarter decisions.
             </p>
             <button className="clay-button px-8 py-4 text-white font-semibold text-lg">
               Start Your Free Trial
             </button>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
