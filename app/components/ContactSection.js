@@ -146,7 +146,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-800">Email</p>
-                  <p className="text-gray-600">hello@dashpro.com</p>
+                  <p className="text-gray-600">paolo@halometrics.co</p>
                 </div>
               </div>
 
@@ -156,7 +156,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-800">Phone</p>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+61 481 388 141</p>
                 </div>
               </div>
 
@@ -166,12 +166,12 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-800">Location</p>
-                  <p className="text-gray-600">San Francisco, CA</p>
+                  <p className="text-gray-600">Melbourne, AU</p>
                 </div>
               </div>
             </div>
 
-            {/* Business Hours */}
+            {/* Business Hours 
             <div className="clay-card p-6">
               <h4 className="font-semibold text-gray-800 mb-4">Business Hours</h4>
               <div className="space-y-2 text-sm text-gray-600">
@@ -188,7 +188,7 @@ export default function ContactSection() {
                   <span>Closed</span>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
