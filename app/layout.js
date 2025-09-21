@@ -101,15 +101,15 @@ export default function Layout({ children, currentPageName }) {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
+                {/*<div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
                   <span className="text-white font-bold text-xl">D</span>
-                </div>
+                </div>*/}
                 <span className="text-2xl font-bold">halo</span>
               </div>
               <p className="text-gray-300">Empowering small businesses with intelligent dashboard reporting solutions.</p>
             </div>
             
-            <div>
+            {/*<div>
               <h4 className="font-semibold mb-4">Services</h4>
               <ul className="space-y-2 text-gray-300">
                 <li>Gym Analytics</li>
@@ -127,20 +127,21 @@ export default function Layout({ children, currentPageName }) {
                 <li>Privacy Policy</li>
                 <li>Terms of Service</li>
               </ul>
-            </div>
+            </div>*/}
             
             <div>
-              <h4 className="font-semibold mb-4">Contact</h4>
+              <h4 className="font-semibold mb-4">Get in touch</h4>
               <ul className="space-y-2 text-gray-300">
                 <li>paolo@halometrics.co</li>
-                <li>+1 (555) 123-4567</li>
-                <li>San Francisco, CA</li>
+                <li>+61 481 388 141</li>
+                <li>@_halometrics</li>
+                <li>Melbourne, AU</li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-white/20 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 halo. All rights reserved.</p>
+            <p>&copy; 2025 halometrics. All rights reserved.</p>
           </div>
         </div>
       </footer>
