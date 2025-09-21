@@ -73,7 +73,7 @@ export default function Layout({ children, currentPageName }) {
               {/* <div className="w-10 h-10 clay-card flex items-center justify-center">
                 <span className="text-gradient font-bold text-xl">D</span>
               </div> */}
-              <span className="text-2xl font-bold text-gradient">Halo</span>
+              <span className="text-2xl font-bold text-gradient">halo</span>
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
@@ -104,7 +104,7 @@ export default function Layout({ children, currentPageName }) {
                 <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
                   <span className="text-white font-bold text-xl">D</span>
                 </div>
-                <span className="text-2xl font-bold">DashPro</span>
+                <span className="text-2xl font-bold">halo</span>
               </div>
               <p className="text-gray-300">Empowering small businesses with intelligent dashboard reporting solutions.</p>
             </div>
@@ -132,7 +132,7 @@ export default function Layout({ children, currentPageName }) {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-300">
-                <li>hello@dashpro.com</li>
+                <li>paolo@halometrics.co</li>
                 <li>+1 (555) 123-4567</li>
                 <li>San Francisco, CA</li>
               </ul>
@@ -140,7 +140,7 @@ export default function Layout({ children, currentPageName }) {
           </div>
           
           <div className="border-t border-white/20 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 DashPro. All rights reserved.</p>
+            <p>&copy; 2025 halo. All rights reserved.</p>
           </div>
         </div>
       </footer>
