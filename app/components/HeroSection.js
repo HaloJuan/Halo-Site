@@ -17,9 +17,9 @@ export default function HeroSection() {
           <div className="space-y-8">
             <div className="space-y-6">
               <div className="flex items-center space-x-2 mb-4">
-                <div className="clay-card px-4 py-2">
+              {/*<div className="clay-card px-4 py-2">
                   <span className="text-gradient font-semibold">Dashboard Reporting</span>
-                </div>
+                </div>*/}
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
@@ -29,12 +29,12 @@ export default function HeroSection() {
               </h1>
               
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-                Powerful dashboard solutions designed specifically for boutique gyms, 
-                cafes, and dental practices. Make data-driven decisions with confidence.
+                Powerful dashboard solutions designed specifically to help small businesses 
+                make data-driven decisions with confidence.
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+           {/*} <div className="flex flex-col sm:flex-row gap-4">
               <button className="clay-button px-8 py-4 text-white font-semibold text-lg flex items-center justify-center space-x-2">
                 <span>Start Free Trial</span>
                 <ArrowRight className="w-5 h-5" />
@@ -43,17 +43,17 @@ export default function HeroSection() {
               <button className="clay-card px-8 py-4 text-gray-700 font-semibold text-lg hover:text-purple-600 transition-colors">
                 Watch Demo
               </button>
-            </div>
+            </div>*/}
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-gradient">500+</div>
-                <div className="text-sm text-gray-600">Happy Clients</div>
+                <div className="text-3xl font-bold text-gradient"> 3:1 </div>
+                <div className="text-sm text-gray-600"> Average ROI </div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-gradient">98%</div>
-                <div className="text-sm text-gray-600">Satisfaction Rate</div>
+                <div className="text-3xl font-bold text-gradient">64%</div>
+                <div className="text-sm text-gray-600">Productivity Boost</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-gradient">24/7</div>
