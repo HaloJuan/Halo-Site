@@ -42,7 +42,7 @@ export default function ContactSection() {
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Let's discuss how our dashboard solutions can help your business grow. 
-            Get a personalized demo and see the difference data-driven insights can make.
+            Get a personalised demo and see the difference data-driven insights can make.
           </p>
         </div>
 
@@ -130,10 +130,10 @@ export default function ContactSection() {
           </div>*/}
 
           {/* Contact Info */}
-          <div className="space-y-8">
+          <div className="space-y-8 text-center">
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Get in touch</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto">
                 We're here to help you make the most of your business data. 
                 Reach out to us and let's start building your custom dashboard solution today.
               </p>
