@@ -74,9 +74,9 @@ export default function ServicesSection() {
                   ))}
                 </div>
                 
-                <button className="clay-button px-8 py-4 text-white font-semibold">
+                {/*<button className="clay-button px-8 py-4 text-white font-semibold">
                   Learn More
-                </button>
+                </button>*/}
               </div>
 
               {/* Visual */}
