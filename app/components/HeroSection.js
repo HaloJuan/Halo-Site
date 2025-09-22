@@ -11,8 +11,8 @@ export default function HeroSection() {
         <div className="floating-element absolute bottom-1/4 left-1/3 w-20 h-20 clay-card opacity-25" style={{animationDelay: '4s'}}></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 py-12 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-6 py-6 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-6">
