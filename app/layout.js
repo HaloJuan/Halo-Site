@@ -79,13 +79,13 @@ export default function Layout({ children, currentPageName }) {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#services" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Services</a>
               <a href="#features" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Features</a>
-              <a href="#testimonials" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Reviews</a>
+              {/*<a href="#testimonials" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Reviews</a>*/}
               <a href="#contact" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Contact</a>
             </div>
 
-            <button className="clay-button px-6 py-3 text-white font-semibold">
+            {/*<button className="clay-button px-6 py-3 text-white font-semibold">
               Get Started
-            </button>
+            </button>*/}
           </div>
         </div>
       </nav>
