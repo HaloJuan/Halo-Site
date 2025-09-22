@@ -40,7 +40,7 @@ export default function ServicesSection() {
             <span className="text-gradient block">Your Business </span>
           </h2>
           
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
             Think of us as personal trainers for your business data. We understand that every business is unique which is why our specialised dashboard solutions are tailored to your specific
             challenges. And like a personal trainer - we're your partners in growth. Together, we'll equip you with the right tools helping you build the confidence and skill to navigate your data,
             and uncover insights empowering you to take full control of your data and make data-driven decisions with ease.
