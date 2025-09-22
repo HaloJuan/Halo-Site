@@ -130,8 +130,8 @@ export default function ContactSection() {
           </div>*/}
 
           {/* Contact Info */}
-          <div className="space-y-8 text-center">
-            <div>
+          <div className="space-y-8">
+            <div className="text-center">
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Get in touch</h3>
               <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto">
                 We're here to help you make the most of your business data. 
