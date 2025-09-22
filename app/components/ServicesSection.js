@@ -41,10 +41,9 @@ export default function ServicesSection() {
           </h2>
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Think of us as personal coaches for business data. We understand that every business is 
-            unique which is why our specialised dashboard solutions are tailored to your specific
-            challenges. We help you build your "data muscles" to give you the confidence and skill
-            to take full control of your data and make data-driven decisions with ease.
+            Think of us as personal trainers for your business data. We understand that every business is unique which is why our specialised dashboard solutions are tailored to your specific
+            challenges. And like a personal trainer - we're your partners in growth. Together, we'll equip you with the right tools helping you build the confidence and skill to navigate your data,
+            and uncover insights empowering you to take full control of your data and make data-driven decisions with ease.
           </p>
         </div>
 
