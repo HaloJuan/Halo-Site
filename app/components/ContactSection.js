@@ -48,7 +48,7 @@ export default function ContactSection() {
 
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Contact Form */}
-          <div className="clay-card p-8">
+          {/*<div className="clay-card p-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Send us a message</h3>
             
             {isSubmitted ? (
@@ -127,7 +127,7 @@ export default function ContactSection() {
                 </button>
               </form>
             )}
-          </div>
+          </div>*/}
 
           {/* Contact Info */}
           <div className="space-y-8">
