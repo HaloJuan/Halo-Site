@@ -371,6 +371,36 @@ export default function HeroSection() {
         </div>
       </section>
 
+       {/* ── DASHBOARD EMBED — sits between industry cards and pricing ── */}
+  <div className="mt-16">
+    <div className="text-center mb-8">
+      <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-3">See it live</p>
+      <h2 className="text-3xl font-bold">
+        This is what your
+        <span className="text-gradient"> dashboard looks like</span>
+      </h2>
+      <p className="text-gray-500 mt-3 text-base max-w-xl mx-auto">
+        A real Power BI dashboard built by Halo. Click around — this is exactly what you'd receive.
+      </p>
+    </div>
+
+    <div className="clay-card p-4 overflow-hidden">
+      <iframe
+        title="Halo Dashboard Demo"
+        src="YOUR_POWER_BI_PUBLISH_TO_WEB_URL"
+        width="100%"
+        height="600"
+        frameBorder="0"
+        allowFullScreen
+        className="rounded-xl w-full"
+      />
+    </div>
+
+    <p className="text-center text-xs text-gray-400 mt-3">
+      Sample data only — your dashboard will reflect your real business numbers.
+    </p>
+  </div>
+
       {/* ── NEW: PRICING ANCHOR STRIP ── */}
       <section className="max-w-7xl mx-auto px-6 py-8 pb-16">
         <div className="clay-card p-6 flex flex-col sm:flex-row items-center justify-between gap-6">
