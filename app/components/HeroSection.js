@@ -387,7 +387,7 @@ export default function HeroSection() {
     <div className="clay-card p-4 overflow-hidden">
       <iframe
         title="Halo Dashboard Demo"
-        src="YOUR_POWER_BI_PUBLISH_TO_WEB_URL"
+        src="https://app.powerbi.com/view?r=eyJrIjoiYTBhMjFmM2EtOTJiNC00MmE1LTg3MDktODYzMDE0ODkzYTExIiwidCI6IjJlMTBhMmQzLWZhNTUtNDQ5OS1hMTBlLWQ0OGFkNzQ4ZGRmNiJ9"
         width="100%"
         height="600"
         frameBorder="0"
