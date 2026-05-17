@@ -73,7 +73,11 @@ export default function Layout({ children, currentPageName }) {
               {/* <div className="w-10 h-10 clay-card flex items-center justify-center">
                 <span className="text-gradient font-bold text-xl">D</span>
               </div> */}
-              <span className="text-2xl font-bold text-gradient">halo</span>
+               {/* <span className="text-2xl font-bold text-gradient">halo</span>  */}
+                  <img 
+    src="/logo.png" 
+    alt="Halo" 
+    className="h-8 w-auto"/>
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
