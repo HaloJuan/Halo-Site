@@ -160,7 +160,7 @@ export default function HeroSection() {
                 </h1>
 
                 {/* NEW subheading — proactively defuses "do I need to be technical?" */}
-                <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
+                <p className="text-xl text-gray-600 leading-relaxed max-w-full mx-auto">
                   We connect to your existing systems — your POS, bookings, sales data — and turn
                   them into a clear weekly dashboard. No spreadsheets. No tech headaches. Just the
                   numbers that matter.
@@ -201,7 +201,7 @@ export default function HeroSection() {
             </div>
 
        {/* ── DASHBOARD EMBED — sits between industry cards and pricing ── */}
-  <div className="mt-16">
+  <div className="mt-16 w-full px-0">
     <div className="text-center mb-8">
       <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-3">See it live</p>
       <h2 className="text-3xl font-bold">
@@ -213,12 +213,12 @@ export default function HeroSection() {
       </p>
     </div>
 
-    <div className="clay-card p-4 overflow-hidden">
+    <div className="clay-card p-0 overflow-hidden mx-0">
       <iframe
         title="Halo Dashboard Demo"
         src="https://app.powerbi.com/view?r=eyJrIjoiZTY4NDBmYmYtNjAxNy00NzVjLTk1MTctMjYyYmE4ZDE1NTNkIiwidCI6IjJlMTBhMmQzLWZhNTUtNDQ5OS1hMTBlLWQ0OGFkNzQ4ZGRmNiJ9&pageName=e0bef459885b3d2ba375"
         width="100%"
-        height="600"
+        height="800"
         frameBorder="0"
         allowFullScreen
         className="rounded-xl w-full"
