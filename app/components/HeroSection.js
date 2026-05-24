@@ -142,10 +142,10 @@ export default function HeroSection() {
         </div>
 
         <div className="max-w-7xl mx-auto px-6 py-6 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-1 gap-16 items-center">
 
             {/* ── LEFT: Copy ── */}
-            <div className="space-y-8">
+            <div className="space-y-8 text-center">
               <div className="space-y-6">
 
                 {/* Industry tag pill */}
@@ -180,7 +180,7 @@ export default function HeroSection() {
               </div> */}
 
               {/* NEW social proof trust row — replaces fabricated stats */}
-              <div className="flex items-center space-x-4 pt-2">
+              <div className="flex items-center justify-center space-x-4 pt-2">
                 {/* Avatar stack */}
                 <div className="flex -space-x-2">
                   {["SC", "MR", "JT", "AL"].map((initials, i) => (
