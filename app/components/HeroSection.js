@@ -253,12 +253,11 @@ export default function HeroSection() {
 
               <div className="absolute -top-4 -right-4 w-16 h-16 clay-card floating-element"></div>
               <div className="absolute -bottom-4 -left-4 w-12 h-12 clay-card floating-element" style={{ animationDelay: "3s" }}></div>
-            </div> 
+            </div> */}
 
           </div> 
         </div>
       </section>
-*/}
 
       {/* ── NEW: TESTIMONIAL STRIP ── */}
       <section className="max-w-7xl mx-auto px-6 py-8">
