@@ -102,7 +102,7 @@ export default function Layout({ children, currentPageName }) {
       {/* Footer */}
       <footer className="bg-gradient-to-r from-slate-900 to-purple-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:flex justify-between items-start">
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 {/*<div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
