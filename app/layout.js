@@ -73,19 +73,19 @@ export default function Layout({ children, currentPageName }) {
               {/* <div className="w-10 h-10 clay-card flex items-center justify-center">
                 <span className="text-gradient font-bold text-xl">D</span>
               </div> */}
-               {/* <span className="text-2xl font-bold text-gradient">halo</span>  */}
-                  <img 
+                <span className="text-2xl font-bold text-gradient">halo</span>  
+                 {/* <img 
     src="/logo.png" 
     alt="Halo" 
-    className="h-8 w-auto"/>
+    className="h-8 w-auto"/>*/}
             </div>
             
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="#services" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Services</a>
-              <a href="#features" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Features</a>
+           {/* <div className="hidden md:flex items-center space-x-8"> */}
+              {/*<a href="#services" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Services</a>*/}
+              {/*<a href="#features" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Features</a>*/}
               {/*<a href="#testimonials" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Reviews</a>*/}
-              <a href="#contact" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Contact</a>
-            </div>
+              {/*<a href="#contact" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Contact</a>*/}
+            {/* </div> */}
 
             {/*<button className="clay-button px-6 py-3 text-white font-semibold">
               Get Started
