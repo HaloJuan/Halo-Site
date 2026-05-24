@@ -110,7 +110,7 @@ export default function Layout({ children, currentPageName }) {
                 </div>*/}
                 <span className="text-2xl font-bold">halo</span>
               </div>
-              <p className="text-gray-300">Empowering small businesses with intelligent dashboard reporting solutions.</p>
+              <p className="text-gray-300">Empowering small businesses with  <br />intelligent dashboard reporting solutions.</p>
             </div>
             
             {/*<div>
