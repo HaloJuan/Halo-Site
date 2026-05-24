@@ -167,7 +167,7 @@ export default function HeroSection() {
                 </p>
               </div>
 
-              {/* NEW CTAs — restored and reframed as low-commitment */}
+              {/* NEW CTAs — restored and reframed as low-commitment
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="clay-button px-8 py-4 text-white font-semibold text-lg flex items-center justify-center space-x-2">
                   <span>Book a free 30-min call</span>
@@ -177,7 +177,7 @@ export default function HeroSection() {
                   <Play className="w-4 h-4" />
                   <span>See a dashboard demo</span>
                 </button>
-              </div>
+              </div> */}
 
               {/* NEW social proof trust row — replaces fabricated stats */}
               <div className="flex items-center space-x-4 pt-2">
@@ -200,7 +200,7 @@ export default function HeroSection() {
               </div>
             </div>
 
-            {/* ── RIGHT: Dashboard preview — kept from original ── */}
+            {/* ── RIGHT: Dashboard preview — kept from original ──
             <div className="relative">
               <div className="clay-card p-8">
                 <div className="space-y-6">
@@ -253,11 +253,12 @@ export default function HeroSection() {
 
               <div className="absolute -top-4 -right-4 w-16 h-16 clay-card floating-element"></div>
               <div className="absolute -bottom-4 -left-4 w-12 h-12 clay-card floating-element" style={{ animationDelay: "3s" }}></div>
-            </div>
+            </div> 
 
-          </div>
+          </div> 
         </div>
       </section>
+*/}
 
       {/* ── NEW: TESTIMONIAL STRIP ── */}
       <section className="max-w-7xl mx-auto px-6 py-8">
@@ -377,7 +378,7 @@ export default function HeroSection() {
       <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-3">See it live</p>
       <h2 className="text-3xl font-bold">
         This is what your
-        <span className="text-gradient"> dashboard looks like</span>
+        <span className="text-gradient"> dashboard could look like</span>
       </h2>
       <p className="text-gray-500 mt-3 text-base max-w-xl mx-auto">
         A real Power BI dashboard built by Halo. Click around — this is exactly what you'd receive.
@@ -401,13 +402,12 @@ export default function HeroSection() {
     </p>
   </div>
 
-      {/* ── NEW: PRICING ANCHOR STRIP ── */}
+      {/* ── NEW: PRICING ANCHOR STRIP ── 
       <section className="max-w-7xl mx-auto px-6 py-8 pb-16">
         <div className="clay-card p-6 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="space-y-1 text-center sm:text-left">
-            {/* REPLACE $299 with your actual starting price */}
             <p className="text-lg font-semibold text-gray-800">
-              Setup + monthly dashboard from <span className="text-gradient">$299/month</span>
+              Setup + monthly dashboard from <span className="text-gradient">$499/month</span>
             </p>
             <p className="text-sm text-gray-500">No lock-in contracts · Cancel anytime · Melbourne-based support</p>
           </div>
@@ -416,7 +416,7 @@ export default function HeroSection() {
             <ArrowRight className="w-5 h-5" />
           </button>
         </div>
-      </section>
+      </section>*/}
     </>
   );
 }
